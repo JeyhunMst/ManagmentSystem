@@ -1,21 +1,27 @@
-#combo-menu{
-    .combo-container{
-        .combo-row{
-            .col3-pizza{
-                .combo-last-menu{
+
+@import "./partials/products";
+
+#combo-menu {
+    .combo-container {
+        .combo-row {
+            .col3-pizza {
+                .combo-last-menu {
                     width: 286px;
                     height: 190px;
-                    .combo-btn{
+
+                    .combo-btn {
                         margin-top: 25px;
                     }
                 }
-                 .combo-card-body{
-                    .combo-btn{
+
+                .combo-card-body {
+                    .combo-btn {
                         width: 201px;
-                       
+
                     }
-                 }
+                }
             }
         }
     }
 }
+
