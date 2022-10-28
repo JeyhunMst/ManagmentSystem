@@ -1,0 +1,62 @@
+#combo-menu .combo-container .combo-row .col3-pizza .combo-card {
+  border-color: white;
+}
+
+#combo-menu .combo-container .combo-row .col3-pizza .combo-last-menu {
+  width: 286px;
+  height: 222px;
+}
+
+#combo-menu .combo-container .combo-row .col3-pizza .combo-card-body .combo-btn {
+  width: 200px;
+  border-radius: 12px;
+  border: solid 1px #bfc5c7;
+}
+
+#combo-menu .combo-container .combo-row .col3-pizza .combo-card-body .combo-btn:hover {
+  color: white;
+  background-color: #d94524;
+}
+
+#combo-menu .combo-container .combo-row .col3-pizza .combo-card-body .combo-price {
+  display: flex;
+}
+
+#combo-menu .combo-container .combo-row .col3-pizza .combo-card-body .combo-price .combo-icon {
+  position: absolute;
+  left: 70px;
+  bottom: 66px;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-card {
+  border-color: white;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-card-body .salad-btn {
+  width: 200px;
+  border-radius: 12px;
+  border: solid 1px #bfc5c7;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-card-body .salad-btn:hover {
+  color: white;
+  background-color: #d94524;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-card-body .salad-price {
+  display: flex;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-card-body .salad-price .salad-size {
+  font-size: 12px;
+  position: absolute;
+  left: 107px;
+  bottom: 48px;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-card-body .salad-price .salad-icon {
+  position: absolute;
+  left: 70px;
+  bottom: 66px;
+}
+/*# sourceMappingURL=style.css.map */

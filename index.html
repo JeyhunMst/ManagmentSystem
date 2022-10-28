@@ -1,68 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/style.css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
-</head>
-<body>
-    <main>
-        <section id="pizzas">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/products/margherita.jpg" class="card-img-top" alt="Margherita">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <h5 class="price">7.00</h5>
-                              <i class="fa-solid fa-manat-sign"></i>
-                              
-                              <button type="button" class="choose-btn">Choose</button>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/products/margherita.jpg" class="card-img-top" alt="Margherita">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <h5 class="price">7.00</h5>
-                              <i class="fa-solid fa-manat-sign"></i>
-                              <button type="button" class="choose">Choose</button>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/products/margherita.jpg" class="card-img-top" alt="Margherita">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <button type="button" class="choose">Choose</button>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/products/margherita.jpg" class="card-img-top" alt="Margherita">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <button type="button" class="choose">Choose</button>
-                            </div>
-                          </div>
-                    </div>
+  </head>
+  <body>
+      <section id="combo-menu">  
+        <div class="container combo-container">
+           <div class="title-combo">
+          <h2>Kombo menyular</h2>
+        </div>
+          <div class="row combo-row">
+            <div class="col-3 col3-pizza">
+              <div class="card combo-card" style="width: 18rem ;">
+                <img
+                  src="./assets/combo-menu/images/combo-menu-pizza1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body combo-card-body">
+                  <h5 class="card-title">Ailəvi Kombo</h5>
+                  <p class="card-text">
+                    Böyük salyami pizza, qarışıq panini (6 ədəd), naggetslər (6
+                    ədəd), kartof fri, Coca-Cola 1L
+                  </p>
+                  <div class="combo-price ">
+                       <h5>27.90</h5> <i class="fa-solid fa-manat-sign combo-icon"></i>
+                  </div>
+                  <button type="button" class="btn combo-btn">Səbətə</button>
                 </div>
+              </div>
             </div>
-        </section>
+            <div class="col-3 col3-pizza">
+              <div class="card combo-card" style="width: 18rem">
+                <img
+                  src="./assets/combo-menu/images/combo-menu-pizza2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body combo-card-body">
+                  <h5 class="card-title">
+                    Klab Sendviç, Kartof Fri, Coca-Cola 0.33L
+                  </h5>
+                  <p class="card-text">
+                    Klab sendviç, kartof fri, Coca-Cola 0.33L
+                  </p>
+                    <div class="combo-price">
+                       <h5>9.90</h5> <i class="fa-solid fa-manat-sign combo-icon"></i>
+                  </div>
+                  <button type="button" class="btn combo-btn">Səbətə</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col3-pizza">
+              <div class="card combo-card" style="width: 18rem">
+                <img
+                  src="./assets/combo-menu/images/combo-menu-pizza3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body combo-card-body combo-last-menu" >
+                  <h5 class="card-title">Dörd Fəsil Kombo</h5>
+                  <p class="card-text">
+                    Orta dörd fəsil pizza, kartof fri, Coca-Cola 1L
+                  </p> <br>
+                    <div class="combo-price">
+                       <h5>9.90</h5> <i class="fa-solid fa-manat-sign combo-icon"></i>
+                  </div>
+                  <button type="button" class="btn combo-btn">Səbətə</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="salad-menu">  
+        <div class="container salad-container">
+           <div class="title-salad">
+          <h2>Salatlar</h2>
+        </div>
+          <div class="row salad-row">
+            <div class="col-3 col3-salad">
+              <div class="card salad-card" style="width: 18rem ;">
+                <img
+                  src="./assets/combo-menu/images/yunan-salad.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body salad-card-body">
+                  <h5 class="card-title">Yunan</h5>
+                  <p class="card-text">
+                    Aysberq kahı, pomidor, xiyar, ağ pendir, qara zeytun,  zeytun yağı, limon suyu, ədviyyat
+                  </p>
+                  <div class="salad-price ">
+                       <h5>5.90</h5> <i class="fa-solid fa-manat-sign salad-icon"></i> <p class="salad-size">300qr</p>
+                  </div>
+                  <button type="button" class="btn salad-btn">Səbətə</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col3-salad">
+              <div class="card salad-card" style="width: 18rem">
+                <img
+                  src="./assets/combo-menu/images/spacile-salad.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body salad-card-body">
+                  <h5 class="card-title">
+                   Speçiale
+                  </h5>
+                  <p class="card-text">
+                    Aysberq kahı, kök, pomidor, xiyar, qarğıdalı, toyuq filesi, gouda pendiri, qurudulmuş çörək, xüsusi sous, ədviyyat
+                  </p>
+                    <div class="salad-price">
+                       <h5>6.90</h5> <i class="fa-solid fa-manat-sign salad-icon"></i> <p class="salad-size">300qr</p>
+                  </div>
+                  <button type="button" class="btn salad-btn">Səbətə</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col3-salad">
+              <div class="card salad-card" style="width: 18rem">
+                <img
+                  src="./assets/combo-menu/images/kapricoza.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body salad-card-body " >
+                  <h5 class="card-title">Kapriçoza</h5>
+                  <p class="card-text">
+                    Aysberq kahı, pomidor, xiyar, qarğıdalı, kök, gouda pendiri, ton balığı, mal ətindən vetçina (halal), kokteyl sousu
+                  </p> 
+                    <div class="salad-price">
+                       <h5>9.90</h5> <i class="fa-solid fa-manat-sign salad-icon"></i> <p class="salad-size">300qr</p>
+                  </div>
+                  <button type="button" class="btn salad-btn">Səbətə</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col3-salad">
+              <div class="card salad-card" style="width: 18rem">
+                <img
+                  src="./assets/combo-menu/images/sezar-salad.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body salad-card-body " >
+                  <h5 class="card-title">Sezar</h5>
+                  <p class="card-text">
+                   Aysberq kahı, pomidoru, toyuq filesi, parmezan pendiri, qurudulmuş çörək, klassik Sezar sousu
+                  </p> 
+                    <div class="salad-price">
+                       <h5>7.90</h5> <i class="fa-solid fa-manat-sign salad-icon"></i> <p class="salad-size">300qr</p>
+                  </div>
+                  <button type="button" class="btn salad-btn">Səbətə</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    
-</body>
+  </body>
 </html>
