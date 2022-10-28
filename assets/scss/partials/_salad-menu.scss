@@ -1,0 +1,42 @@
+#salad-menu {
+    .salad-container {
+        .salad-row {
+            .col3-salad {
+                .salad-card {
+                    border-color: white;
+                }
+                .salad-card-body {
+                    .salad-btn {
+                        width: 200px;
+                        border-radius: 12px;
+                        border: solid 1px #bfc5c7;
+                        ;
+                    }
+
+                    .salad-btn:hover {
+                        color: white;
+                        background-color: #d94524;
+                    }
+
+                    .salad-price {
+                        display: flex;
+
+                        .salad-size{
+                            font-size: 12px;
+                            position: absolute;
+                            left: 107px;
+                            bottom: 48px;
+                        }
+
+                        .salad-icon {
+                            position: absolute;
+                            left: 70px;
+                            bottom: 66px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
